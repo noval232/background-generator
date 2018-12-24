@@ -256,12 +256,16 @@
         text-transform: uppercase;
         letter-spacing: 1px;
         padding: 1.5rem 3rem;
+        padding: 10px;
+        background: linear-gradient(to right, pink red);
 
         @media only screen and (max-width: $bp-small) {
             font-size: 1.8rem;
             padding: 1.25rem 2rem;
         }
     }
+    
+    
 
     &__stars {
         margin-right: auto;
@@ -321,7 +325,10 @@
         }
     }
 }
-
+.overview__hotel-bekasi{
+    padding: 10px !important;
+    background: linear-gradient(to right, pink red) !important;
+}
 
 
 ////////////////////////////////////////
