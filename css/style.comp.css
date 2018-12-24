@@ -285,7 +285,12 @@ body {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 1.5rem 3rem; }
+    padding: 1.5rem 3rem; 
+  }
+  .overview__heading__hotel-bekasi{
+    padding: 10px !important;
+    background: linear-gradient(to right, pink red) !important;
+  }
     @media only screen and (max-width: 37.5em) {
       .overview__heading {
         font-size: 1.8rem;
